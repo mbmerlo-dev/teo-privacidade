@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidade · TEO toGO</title>
+<style>
+  :root{--teo:#1C75BC;--texto:#142033;--suave:#4B5568;--linha:#DCE3EC;--fundo:#fff}
+  body{margin:0;background:var(--fundo);color:var(--texto);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+  main{max-width:720px;margin:0 auto;padding:40px 16px 64px}
+  h1{font-size:28px;line-height:1.25;margin:0 0 4px;color:var(--teo)}
+  h2{font-size:19px;margin:32px 0 8px}
+  p,li{color:var(--texto)}
+  .data{color:var(--suave);margin:0 0 24px}
+  ul{padding-left:22px}
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--linha);color:var(--suave);font-size:15px}
+</style>
+</head>
+<body>
+<main>
+<h1>Política de privacidade</h1>
+<p class="data">TEO toGO · extensão para o CMDPRO e receptor do TEO · versão de 11/11/2026</p>
+
+<p>Esta política explica como a extensão <strong>TEO toGO · CMDPRO</strong> e o <strong>receptor do TEO</strong>,
+fornecidos pela Legítima, tratam os dados dos atendimentos feitos com o monitor TEO toGO na visita domiciliar.</p>
+
+<h2>Para que servem</h2>
+<p>Levam os dados de um atendimento já feito no monitor (sinais vitais, medidas, exames e evolução) para o formulário
+de registro do CMDPRO, no computador da unidade de saúde, para o profissional conferir e salvar. A extensão preenche só
+os campos vazios e nunca salva o registro sozinha.</p>
+
+<h2>Quais dados passam pela extensão</h2>
+<ul>
+  <li>Dados de saúde do atendimento: sinais vitais, medidas, resultados de exames e o texto da evolução.</li>
+  <li>Dados para conferir o paciente: nome e documento, para mostrar ao profissional se o atendimento é do paciente aberto
+      no CMDPRO.</li>
+  <li>O nome do profissional que fez o atendimento.</li>
+  <li>Uma chave de acesso ao receptor do TEO no próprio computador (não é dado pessoal).</li>
+</ul>
+
+<h2>Por onde os dados passam</h2>
+<ul>
+  <li>Os dados vão do monitor ao receptor do TEO <strong>pela rede local da unidade</strong>, com conexão cifrada.</li>
+  <li>O receptor entrega os dados à extensão <strong>dentro do próprio computador</strong> (endereço local 127.0.0.1).</li>
+  <li>A extensão escreve os dados no formulário do CMDPRO aberto no navegador. Gravar o registro no CMDPRO é uma ação do
+      profissional.</li>
+</ul>
+
+<h2>O que não fazemos</h2>
+<ul>
+  <li>A extensão e o receptor <strong>não enviam dados à Legítima</strong> nem a terceiros, e não usam a internet para
+      isso.</li>
+  <li>Não gravam dados de pacientes em disco: o receptor guarda os atendimentos só na memória, enquanto o profissional
+      lança. Depois que o profissional confirma que salvou, o monitor apaga o atendimento.</li>
+  <li>Não vendemos, não compartilhamos e não usamos os dados para publicidade, análise de crédito ou qualquer finalidade
+      diferente da descrita acima.</li>
+</ul>
+
+<h2>O que fica gravado no computador</h2>
+<ul>
+  <li>A chave de acesso da extensão ao receptor.</li>
+  <li>O certificado e as chaves do receptor, que identificam o computador para o monitor.</li>
+  <li>Um registro técnico do receptor (partida, parada, portas e erros), sem dados de pacientes.</li>
+</ul>
+
+<h2>Responsabilidades</h2>
+<p>O registro do atendimento no prontuário é de responsabilidade do município e da unidade de saúde, que decidem sobre
+esses dados conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018). A Legítima fornece as ferramentas e o suporte de
+instalação e não tem acesso aos dados dos atendimentos por meio delas.</p>
+
+<h2>Contato</h2>
+<p>Dúvidas sobre esta política: Legítima, pelo e-mail <a href="mailto:extensao-teo@legitimaweb.com.br">extensao-teo@legitimaweb.com.br</a>.</p>
+
+<footer>Esta política pode ser atualizada quando as ferramentas mudarem. A data no topo indica a versão em vigor.</footer>
+</main>
+</body>
+</html>
